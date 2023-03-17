@@ -27,8 +27,6 @@ body{
     font-size: 15px;   
 }
 
-
-
 #name{
     padding-top: 30px;
     padding-left: 30px;
@@ -40,6 +38,8 @@ body{
 
 .profile img{
     transition: all 0.2s linear;
+    margin: 0px auto;
+
 }
 
 .profile{
