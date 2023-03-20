@@ -27,6 +27,14 @@ body{
     font-size: 15px;   
 }
 
+#intro nav ul li .menu-btn:hover{
+    background-color: darkgray;
+    transition : background-color 0.5s linear;
+
+    letter-spacing: 4px;
+    transition: letter-spacing 0.5s linear 0s;
+}
+
 #name{
     padding-top: 30px;
     padding-left: 30px;
@@ -34,14 +42,11 @@ body{
 
 .profile{
     padding-left: 30px;
+    overflow: hidden;
 }
 
 .profile img{
     transition: all 0.2s linear;
-}
-
-.profile{
-    overflow: hidden;
 }
 
 .profile img:hover{
